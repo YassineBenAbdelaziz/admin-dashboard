@@ -31,7 +31,9 @@ header {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-bottom: 20px;
 }
+
 
 main {
     background-color: #e2e5f0;
@@ -40,6 +42,7 @@ main {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding: 20px;
 }
 
 
@@ -99,4 +102,89 @@ main {
     margin :0 ;
     color: white;
     width: 100%;
+}
+
+.search-container {
+    display : flex ;
+    justify-content: start;
+    align-items: center;
+    gap:20px;
+    padding-left: 20px;
+}
+
+.magnify {
+    width: 30px;
+    height: auto;
+}
+
+.search-bar {
+    background-color: gray;
+    border-radius: 40px;
+    width: 80%;
+    height: 40%;
+    opacity: 0.3;
+    
+}
+
+.notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.notification > h2 {
+    margin: 0;
+}
+
+.user-greetings {
+    padding-left: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.userName {
+    margin: 0;
+}
+
+.avatar {
+
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    padding-right:  20px;
+}
+
+button {
+    color: white;
+    background-color: #327bd7;
+    border-radius: 20px;
+    width: 30%;
+    height: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+}
+
+.bell {
+    width: 30px;
+    height: auto;
+}
+
+.small-avatar {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
 }
